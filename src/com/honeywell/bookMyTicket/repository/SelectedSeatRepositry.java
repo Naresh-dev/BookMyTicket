@@ -3,7 +3,7 @@
  */
 package com.honeywell.bookMyTicket.repository;
 
-import com.honeywell.bookMyTicket.model.Movie;
+import com.honeywell.bookMyTicket.model.SelectedSeat;
 
 /**
  * @author Hackathon
