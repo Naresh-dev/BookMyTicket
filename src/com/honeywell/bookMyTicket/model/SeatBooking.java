@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.honeywell.bookMyTicket;
+package com.honeywell.bookMyTicket.model;
 
 /**
  * @author Hackathon
