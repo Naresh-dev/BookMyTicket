@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.honeywell.bookMyTicket;
+package com.honeywell.bookMyTicket.model;
 
 import java.math.BigDecimal;
 
@@ -11,11 +11,24 @@ import java.math.BigDecimal;
  */
 public class SeatCategory {
 	
-	private  Long id;
+	private Long id;
 	private BigDecimal basePrice;
 	private String categoryType;
-	private Long noofSeats;
+	private Long noOfSeats;
 	private Long movieId;
+	public Long getNoOfSeats() {
+		return noOfSeats;
+	}
+	public void setNoOfSeats(Long noOfSeats) {
+		this.noOfSeats = noOfSeats;
+	}
+	public Long getIncreaseFactor() {
+		return increaseFactor;
+	}
+	public void setIncreaseFactor(Long increaseFactor) {
+		this.increaseFactor = increaseFactor;
+	}
+	private Long increaseFactor;
 	/**
 	 * @return the id
 	 */
@@ -56,13 +69,13 @@ public class SeatCategory {
 	 * @return the noofSeats
 	 */
 	public Long getNoofSeats() {
-		return noofSeats;
+		return noOfSeats;
 	}
 	/**
 	 * @param noofSeats the noofSeats to set
 	 */
 	public void setNoofSeats(Long noofSeats) {
-		this.noofSeats = noofSeats;
+		this.noOfSeats = noofSeats;
 	}
 	/**
 	 * @return the movieId

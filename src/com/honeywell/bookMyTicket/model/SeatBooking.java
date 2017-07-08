@@ -3,27 +3,19 @@
  */
 package com.honeywell.bookMyTicket.model;
 
+import java.math.BigDecimal;
+
 /**
  * @author Hackathon
  *
  */
 public class SeatBooking {
 	
-	private String SeatNumber;
+	private Long seatNumber;
 	private Long seatCategoryId;
 	private Boolean isBooked;
-	/**
-	 * @return the seatNumber
-	 */
-	public String getSeatNumber() {
-		return SeatNumber;
-	}
-	/**
-	 * @param seatNumber the seatNumber to set
-	 */
-	public void setSeatNumber(String seatNumber) {
-		SeatNumber = seatNumber;
-	}
+	private BigDecimal price;
+	
 	/**
 	 * @return the seatCategoryId
 	 */

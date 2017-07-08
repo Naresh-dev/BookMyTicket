@@ -3,24 +3,25 @@
  */
 package com.honeywell.bookMyTicket.model;
 
+import java.util.List;
+
 /**
  * @author Hackathon
  *
  */
-
 public class BookTicketRequest {
 	Long seatCategoryId;
-	String[] seatNumbers;
+	List<Long> seatNumbers;
 	public Long getSeatCategoryId() {
 		return seatCategoryId;
 	}
 	public void setSeatCategoryId(Long seatCategoryId) {
 		this.seatCategoryId = seatCategoryId;
 	}
-	public String[] getSeatNumbers() {
+	public List<Long> getSeatNumbers() {
 		return seatNumbers;
 	}
-	public void setSeatNumbers(String[] seatNumbers) {
+	public void setSeatNumbers(List<Long> seatNumbers) {
 		this.seatNumbers = seatNumbers;
 	}
 
